@@ -125,3 +125,15 @@
 #         t = int(input("masukan tinggi: "))
 #         segitiga = int(1/2*a*t)
 #         print ("luas segitiga =", segitiga)
+
+# hasil = 0
+# n = 12
+# for i in range (1, n + 1):
+#     hasil += i**2 + 2
+#     print(hasil)
+# hasil = 1
+# n = 8
+# for i in range (1, n + 1):
+#     hasil *= i*"x" + 2
+#     print(hasil)
+
