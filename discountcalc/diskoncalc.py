@@ -19,13 +19,15 @@ def hitung_diskon():
 # Membuat GUI
 app = tk.Tk()
 app.title("Kalkulator Diskon (Rupiah)")
+app.geometry('400x300')
+
 
 # Fungsi untuk membuat Label dan Entry
 def buat_label_dan_entry(teks):
-    label = tk.Label(app, text=teks)
+    label = tk.Label(app, text=teks, pady='10')
     label.pack()
 
-    entry = tk.Entry(app)
+    entry = tk.Entry(app, width='30')
     entry.pack()
 
     return entry
